@@ -3,7 +3,7 @@ import './App.css';
 
 // GraphQL imports
 // import { Query } from 'react-apollo';
-// import gql from "graphql-tag";
+// import gql from 'graphql-tag';
 
 import CountriesDisplay from './countries-display/countries-display';
 // import ErrorDisplay from './error-display/error-display';
@@ -16,8 +16,8 @@ const mockCountriesData = {
       name: '-Country Name-',
       currency: '-Monies-',
       languages: [{
-        name: "-Talky talk-",
-        native: "-Talky talk native-"
+        name: '-Talky talk-',
+        native: '-Talky talk native-',
       }],
       emoji: '-flag emoji-',
     }
@@ -26,7 +26,7 @@ const mockCountriesData = {
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <CountriesDisplay countriesData={mockCountriesData} />
     </div>
   );

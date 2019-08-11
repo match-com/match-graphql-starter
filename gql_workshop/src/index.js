@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 
 // GraphQL imports
-import { ApolloClient } from "apollo-client";
-import { createHttpLink } from "apollo-link-http";
-import { InMemoryCache } from "apollo-cache-inmemory";
-import { ApolloProvider } from "react-apollo";
+import { ApolloClient } from 'apollo-client';
+import { createHttpLink } from 'apollo-link-http';
+import { InMemoryCache } from 'apollo-cache-inmemory';
+import { ApolloProvider } from 'react-apollo';
 
-const link = createHttpLink({ uri: "https://countries.trevorblades.com" });
+const link = createHttpLink({ uri: 'https://countries.trevorblades.com' });
 const cache = new InMemoryCache();
 
 const client = new ApolloClient({
@@ -21,5 +21,5 @@ ReactDOM.render(
   <ApolloProvider client={client}>
     <App />
   </ApolloProvider>,
-  document.getElementById("root"),
+  document.getElementById('root'),
 );
