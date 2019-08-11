@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// GraphQL imports
+import { Query } from 'react-apollo';
+import gql from "graphql-tag";
+
 function App() {
   return (
     <div className="App">
