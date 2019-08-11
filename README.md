@@ -18,7 +18,8 @@ This workshop will get you up and running with a small app that uses GraphQL. Fo
 ## Dependencies
 This repo already has the necessary dependencies as part of the packages.json. Just run `npm install` or `yarn install` while in the `gql_workshop` folder and your dependencies should install. That said, if you want to start from scratch, you will need the following dependencies:
 `apollo-cache-inmemory apollo-client apollo-link-http graphql graphql-anywhere graphql-tag qs react-apollo`
-*Note: These dependencies are required for this specific project. As you venture out on other GraphQL projects, your dependencies will vary depending on your needs.
+* Note: These dependencies are required for this specific project. As you venture out on other GraphQL projects, your dependencies will vary depending on your needs.
+* To use the "freshly out of beta" graphql-hooks from Apollo, you will want to install `@apollo/react-hooks`
 
 ## Additional Resources
 
