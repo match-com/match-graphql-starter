@@ -5,7 +5,7 @@ This workshop will get you up and running with a small app that uses GraphQL. Fo
 
 1. Clone this repo
 2. Run an `install`
-3. Create a countries query that gets the follow:
+3. Create a countries query that gets the following:
 	-	code
 	-	name
 	-	languages (name and native)
