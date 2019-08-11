@@ -1,28 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 // GraphQL imports
-import { Query } from 'react-apollo';
-import gql from "graphql-tag";
+// import { Query } from 'react-apollo';
+// import gql from "graphql-tag";
+
+import CountriesDisplay from './countries-display/countries-display';
+// import ErrorDisplay from './error-display/error-display';
+// import LoadingDisplay from './loading-display/loading-display';
+
+const mockCountriesData = {
+  countries: [
+    {
+      code: 'AAA',
+      name: '-Country Name-',
+      currency: '-Monies-',
+      languages: [{
+        name: "-Talky talk-",
+        native: "-Talky talk native-"
+      }],
+      emoji: '-flag emoji-',
+    }
+  ]
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CountriesDisplay countriesData={mockCountriesData} />
     </div>
   );
 }
