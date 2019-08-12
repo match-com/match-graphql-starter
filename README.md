@@ -1,4 +1,5 @@
-# GraphQL Workshop
+# This Repo is for the Dallas React User Group talk on 8/13/2019.
+## The goal is to talk about getting started with GQL and Apollo
 
 ## Let's GraphQL
 This workshop will get you up and running with a small app that uses GraphQL. For this app, we will be using the Countries API ([https://countries.trevorblades.com/](https://countries.trevorblades.com/)). Visit that URL to visit the Countries API's GraphQL playground. In the playground, you can explore the schema.
