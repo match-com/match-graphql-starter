@@ -25,7 +25,13 @@ This repo already has the necessary dependencies as part of the packages.json. J
 ## Additional Resources
 
 Official GraphQL Docs: [https://graphql.org/learn/](https://graphql.org/learn/)
+
 Apollo GraphQL Docs: [https://www.apollographql.com/docs/](https://www.apollographql.com/docs/)
+
 How To GraphQL: [https://www.howtographql.com/](https://www.howtographql.com/)
+
 Learning GraphQL (book): [http://shop.oreilly.com/product/0636920137269.do](http://shop.oreilly.com/product/0636920137269.do)
+
 Popular GraphQL APIs: [https://github.com/APIs-guru/graphql-apis](https://github.com/APIs-guru/graphql-apis)
+
+Apollo Client Dev Tools (Chrome extension): [https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US)

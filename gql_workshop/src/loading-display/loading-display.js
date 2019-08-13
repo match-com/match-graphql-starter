@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import loadingGif from '../assets/loader.gif';
 
-const ErrorDisplay = () => (
+const LoadingDisplay = () => (
   <div className="error-and-loading-wrapper">
     <img
       src={loadingGif}
@@ -11,4 +11,4 @@ const ErrorDisplay = () => (
   </div>
 );
 
-export default ErrorDisplay;
+export default LoadingDisplay;
