@@ -8,16 +8,16 @@ export const currencyIterator = (currency) => {
 export const languagesIterator = (languages) => {
   const languageArray = [];
 
-  if (languages.length > 0) {
-    languages.forEach((language) => {
-      if (language.name === null || language.name === '') {
-        languageArray.push('n/a');
-      }
-      languageArray.push(language.name + " (" + language.native + ")");
-    })
-  } else {
-    languageArray.push('n/a');
+  if (!languages || languages.length === 0) {
+    return 'language missing';
   }
+
+  languages.forEach((language) => {
+    const languageName = language.name ? language.name : '-language name missing-';
+    const languageNativeName = language.native ? language.native : 'native language name missing';
+
+    languageArray.push(languageName + " (" + languageNativeName + ")");
+  })
 
   return languageArray.join(', ');
 }
