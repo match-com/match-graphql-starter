@@ -1,6 +1,9 @@
 export const currencyIterator = (currency) => {
+  console.log({ currency });
   if (currency === "") {
     return 'n/a';
+  } else if (currency === undefined) {
+    return '-currency missing-';
   }
   return currency.split(',').join(', ');
 }
